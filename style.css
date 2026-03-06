@@ -1,0 +1,215 @@
+body{
+
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+color:white;
+
+/* TECH BACKGROUND */
+
+background:
+linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.95)),
+url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+
+background-size:cover;
+background-position:center;
+background-attachment:fixed;
+
+}
+
+
+/* NAVBAR */
+
+header{
+
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:black;
+position:sticky;
+top:0;
+
+}
+
+.logo{
+
+color:orange;
+
+}
+
+nav a{
+
+margin-left:25px;
+color:white;
+text-decoration:none;
+
+}
+
+nav a:hover{
+
+color:orange;
+
+}
+
+
+/* HERO */
+
+.hero{
+
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+
+}
+
+.hero span{
+
+color:orange;
+
+}
+
+.hero p{
+
+max-width:650px;
+line-height:1.6;
+
+}
+
+
+/* BUTTONS */
+
+.buttons{
+
+margin-top:25px;
+
+}
+
+.btn{
+
+background:orange;
+color:black;
+padding:12px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+margin-right:10px;
+
+}
+
+.btn:hover{
+
+background:#ff8c00;
+
+}
+
+.btn-outline{
+
+border:2px solid orange;
+padding:12px 25px;
+color:orange;
+text-decoration:none;
+border-radius:6px;
+
+}
+
+.btn-outline:hover{
+
+background:orange;
+color:black;
+
+}
+
+
+/* SOCIAL */
+
+.social i{
+
+font-size:30px;
+margin:20px;
+color:orange;
+
+}
+
+
+/* SECTIONS */
+
+section{
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+h2{
+
+color:orange;
+
+}
+
+
+/* SKILLS */
+
+.skills{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+.skills img{
+
+width:70px;
+margin:20px;
+transition:0.3s;
+
+}
+
+.skills img:hover{
+
+transform:scale(1.2);
+
+}
+
+
+/* PROJECTS */
+
+.project-container{
+
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+
+}
+
+.card{
+
+background:#111;
+border:1px solid orange;
+padding:25px;
+margin:20px;
+width:280px;
+border-radius:10px;
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+box-shadow:0 0 15px orange;
+
+}
+
+
+/* FOOTER */
+
+footer{
+
+text-align:center;
+padding:20px;
+background:black;
+
+}
